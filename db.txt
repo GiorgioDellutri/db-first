@@ -10,7 +10,7 @@ Potenza -                   string          - VARCHAR(20)       - NOTNULL
 Alimentazione -             string          - VARCHAR(20)       - NOTNULL
 Colore -                    string          - VARCHAR(20)       - NULL
 Cavalli -                   integer         - MEDIUMINT         - NOTNULL
-Km totali -                 integer         - FLOAT(6,3)        - NULL
+Km totali -                 integer         - FLOAT        - NULL
 Data revisione              date            - DATE              - NULL
 Portata -                   string          - VARCHAR(20)       - NOTNULL
 Numero Assi -               integer         - SMALLINT          - NULL
@@ -19,6 +19,6 @@ Cilindrata -                float           - DOUBLE            - NOTNULL
 Direttiva Euro -            integer         - MEDIUMINT         - NOTNULL
 EcoDiesel -                 string          - VARCHAR(20)       - NULL  
 Posti -                     integer         - SMALLINT          - NULL
-Peso -                      integer         - FLOAT(6,3)        - NOTNULL
+Peso -                      integer         - FLOAT        - NOTNULL
 Categoria -                 string          - VARCHAR(20)       - NULL
-Prezzo -                    float           - FLOAT(6,3)        - NOTNULL
+Prezzo -                    float           - FLOAT(7,2)        - NOTNULL
