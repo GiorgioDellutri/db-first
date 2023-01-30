@@ -1,0 +1,24 @@
+DATABASE AUTO IN VENDITA
+
+Id -                        integer         - MEDIUMINT         - KEY_INCREMENT_AUTO                    
+Marca -                     string          - VARCHAR(7)        - NOTNULL
+Modello-                    string          - VARCHAR(20)       - NOTNULL
+Targa -                     string          - VARCHAR(7)        - NULL
+Tipo Veicolo -              string          - VARCHAR(20)       - NULL
+Regione -                   string          - VARCHAR(20)       - NULL
+Potenza -                   string          - VARCHAR(20)       - NOTNULL
+Alimentazione -             string          - VARCHAR(20)       - NOTNULL
+Colore -                    string          - VARCHAR(20)       - NULL
+Cavalli -                   integer         - MEDIUMINT         - NOTNULL
+Km totali -                 integer         - FLOAT(6,3)        - NULL
+Data revisione              date            - DATE              - NULL
+Portata -                   string          - VARCHAR(20)       - NOTNULL
+Numero Assi -               integer         - SMALLINT          - NULL
+Data immatricolazione -     date            - YEAR              - NULL
+Cilindrata -                float           - DOUBLE            - NOTNULL
+Direttiva Euro -            integer         - MEDIUMINT         - NOTNULL
+EcoDiesel -                 string          - VARCHAR(20)       - NULL  
+Posti -                     integer         - SMALLINT          - NULL
+Peso -                      integer         - FLOAT(6,3)        - NOTNULL
+Categoria -                 string          - VARCHAR(20)       - NULL
+Prezzo -                    float           - FLOAT(6,3)        - NOTNULL
